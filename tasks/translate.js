@@ -16,15 +16,15 @@ module.exports = function(grunt) {
 
   grunt.registerMultiTask('translate', 'The best Grunt plugin ever.', function() {
     this.async();
-    var API_KEY = 'trnsl.1.1.20141115T172010Z.1375530d658f437d.3151fbe8cdd84a8f465c87479765e29f0402758c';
-    var self = this;
-    // Merge task-specific and/or target-specific options with these defaults.
-    var options = this.options();
-    var templateSrc = options.template;
-    var dir = options.dir;
-    var targetLangs = [];
-    var langCodes = [];
-    var mainLangCode = '';
+    var API_KEY = 'trnsl.1.1.20141115T172010Z.1375530d658f437d.3151fbe8cdd84a8f465c87479765e29f0402758c',
+     self = this,
+     options = this.options(),
+     templateSrc = options.template,
+     dir = options.dir,
+     targetLangs = [],
+     langCodes = [],
+     mainLangCode = '';
+    
     this.template;
 
     this.setTargetLangs = function(){
@@ -68,10 +68,11 @@ module.exports = function(grunt) {
 
     //creates a json string which will be written in the translated file 
     this.createJSONString = function(template,langCode,callback,prefix){
-        var lastKey = this.getLastKey(template);
-
+        
         var prefix = !prefix ? '' : prefix,
-            array = [];
+            array = [],
+            lastKey = this.getLastKey(template);
+
         array.push("{ \n");
         _.forEach(template,function(item,i){
            self.translate(item,langCode,function(e){

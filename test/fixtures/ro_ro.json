@@ -1,11 +1,11 @@
 { 
 	"ANOTHER.TEST.TO.MAKE" : "Încă o încercare de a face",
-	"TEST" : "Acesta este un test",
 	"ANOTHER_TEST" : "Acesta este un alt test",
+	"TEST" : "Acesta este un test",
 	"TITLE" : "Este numele aplicației",
 	"TEXT" : "Aici un text.",
-	"TEXT_2" : "Aici mai multe.",
 	"Async.Test" : "Introduceți numele dvs.",
+	"TEXT_2" : "Aici mai multe.",
 	"validation_password" : "Vă rugăm să introduceți parola.",
 	"validation_min_length" : "Adresa de e-mail este prea scurt",
 	"validation_max_length" : "Intrarea este prea lung"

@@ -1,0 +1,9 @@
+{ 
+	"ANOTHER_TEST" : "de_de This is yet another test",
+	"TEST" : "de_de This is the test",
+	"TITLE" : "de_de This is the App title",
+	"TEXT" : "de_de Here is some text.",
+	"TEXT_2" : "de_de Here's more.",
+	"TEXT_3" : "de_de Here's another one.",
+	"ONLY_EN" : "de_de en en en only"
+}

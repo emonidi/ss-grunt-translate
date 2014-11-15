@@ -1,0 +1,41 @@
+{
+  "name": "ss-grunt-translate",
+  "description": "A grunt plugin that works for angular translate language strings. It takes one language as leading and adds new file which are passed as options in the grunt file.",
+  "version": "0.1.2",
+  "homepage": "https://github.com/emonidi/grunt-translate",
+  "author": {
+    "name": "Emiliyan Gospodinov",
+    "email": "emonidi@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/emonidi/grunt-translate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/emonidi/grunt-translate/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/emonidi/grunt-translate/blob/master/LICENSE-MIT"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "^0.9.2",
+    "grunt-contrib-clean": "^0.5.0",
+    "grunt-contrib-nodeunit": "^0.3.3",
+    "grunt": "~0.4.5"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.5"
+  },
+  "keywords": [
+    "gruntplugin"
+  ]
+}

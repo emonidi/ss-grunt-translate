@@ -1,9 +1,0 @@
-{ 
-	"ANOTHER_TEST" : "bg_bg This is yet another test",
-	"TEST" : "bg_bg This is the test",
-	"TITLE" : "bg_bg This is the App title",
-	"TEXT" : "bg_bg Here is some text.",
-	"TEXT_2" : "bg_bg Here's more.",
-	"TEXT_3" : "bg_bg Here's another one.",
-	"ONLY_EN" : "bg_bg en en en only"
-}

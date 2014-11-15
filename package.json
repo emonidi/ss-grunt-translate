@@ -37,5 +37,9 @@
   },
   "keywords": [
     "gruntplugin"
-  ]
+  ],
+  "dependencies": {
+    "xhrequest": "^1.0.22",
+    "lodash": "^2.4.1"
+  }
 }

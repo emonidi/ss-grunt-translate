@@ -32,9 +32,27 @@ module.exports = function(grunt) {
     translate: {
       default_options: {
         options: {
-          dir:'./test/fixtures/',
-          template:'en_en.json',
-          translateTo:['de_de','bg_bg']
+          dir: './test/fixtures/',
+          template: 'en_en.json',
+          translateTo: [
+            {
+              file: 'en_en',
+              langCode: 'en',
+              main:true,
+            },
+            {
+              file: 'es_es',
+              langCode: 'es'
+            },
+            {
+              file: 'de_de',
+              langCode: 'de'
+            },
+            {
+              file: 'ro_ro',
+              langCode: 'ro'
+            }
+          ],
         },
       }
     },

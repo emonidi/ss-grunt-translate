@@ -1,0 +1,12 @@
+{ 
+	"ANOTHER.TEST.TO.MAKE" : "Otra prueba para hacer",
+	"ANOTHER_TEST" : "Esta es otra prueba",
+	"TEXT" : "Aquí está el texto.",
+	"TEST" : "Esta es la prueba",
+	"TITLE" : "Este es el nombre de la Aplicación",
+	"TEXT_2" : "Aquí hay más.",
+	"Async.Test" : "Ingrese su nombre",
+	"validation_password" : "Por favor introduce tu contraseña.",
+	"validation_min_length" : "El Correo electrónico es demasiado corta",
+	"validation_max_length" : "La entrada es demasiado larga"
+}

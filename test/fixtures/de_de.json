@@ -1,9 +1,12 @@
 { 
-	"ANOTHER_TEST" : "de_de This is yet another test",
-	"TEST" : "de_de This is the test",
-	"TITLE" : "de_de This is the App title",
-	"TEXT" : "de_de Here is some text.",
-	"TEXT_2" : "de_de Here's more.",
-	"TEXT_3" : "de_de Here's another one.",
-	"ONLY_EN" : "de_de en en en only"
+	"ANOTHER.TEST.TO.MAKE" : "Ein weiterer test zu machen",
+	"ANOTHER_TEST" : "Dies ist noch ein test",
+	"TEST" : "Dies ist der test",
+	"TITLE" : "Dies ist die App Titel",
+	"TEXT" : "Hier ist der text.",
+	"TEXT_2" : "Hier gibt ' s mehr.",
+	"Async.Test" : "Geben Sie Ihren Namen",
+	"validation_password" : "Bitte geben Sie Ihr Passwort ein.",
+	"validation_min_length" : "Die E-Mail ist zu kurz",
+	"validation_max_length" : "Die Eingabe ist zu lang"
 }

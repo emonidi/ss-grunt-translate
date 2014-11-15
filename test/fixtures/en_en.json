@@ -1,9 +1,12 @@
 {
+  "ANOTHER.TEST.TO.MAKE" : "Another test to make",
   "ANOTHER_TEST" : "This is yet another test",
   "TEST" : "This is the test",
   "TITLE": "This is the App title",
   "TEXT": "Here is some text.",
   "TEXT_2": "Here's more.",
-  "TEXT_3": "Here's another one.",
-  "ONLY_EN": "en en en only"
+  "Async.Test": "Enter your name",
+  "validation_password":"Please enter your password.",
+  "validation_min_length" : "The E Mail is too short",
+  "validation_max_length" : "The input is too long"
 }

@@ -1,6 +1,6 @@
-# grunt-translate
+# ss-grunt-translate
 
-> The best Grunt plugin ever.
+> "A grunt plugin that works for angular translate language strings. It takes one language as leading and adds new file which are passed as options in the grunt file..
 
 ## Getting Started
 This plugin requires Grunt `~0.4.5`
